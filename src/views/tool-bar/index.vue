@@ -13,11 +13,11 @@
 </template>
 <script>
 export default {
-  name: "tool-bar"
+  name: 'tool-bar',
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .tool {
   position: fixed;
   bottom: 200px;

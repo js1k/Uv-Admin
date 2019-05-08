@@ -6,27 +6,28 @@
 </template>
 
 <script>
-import dayjs from "dayjs";
+import dayjs from 'dayjs';
+
 export default {
-  name: "home",
+  name: 'home',
   data() {
     return {
-      date: dayjs().format("YYYY-MM-DD HH:mm:ss")
+      date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
     };
   },
   mounted() {
-    let _this = this;
+    const that = this;
     this.timer = setInterval(() => {
-      _this.date = dayjs().format("YYYY-MM-DD HH:mm:ss");
+      that.date = dayjs().format('YYYY-MM-DD HH:mm:ss');
     }, 1000);
   },
   methods: {
-    btnClick() {}
+    btnClick() {},
   },
   beforeDestroy() {
     if (this.timer) {
       clearInterval(this.timer);
     }
-  }
+  },
 };
 </script>

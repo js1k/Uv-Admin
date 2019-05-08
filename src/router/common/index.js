@@ -7,21 +7,18 @@
  */
 export default [
   {
-    path: "*",
-    name: "404",
-    component: () =>
-      import(/* webpackChunkName: "Multiplexing" */ "@/components/common-page/404.vue")
+    path: '*',
+    name: '404',
+    component: () => import(/* webpackChunkName: "Multiplexing" */ '@/components/common-page/404.vue'),
   },
   {
-    path: "/403",
-    name: "403",
-    component: () =>
-      import(/* webpackChunkName: "Multiplexing" */ "@/components/common-page/403.vue")
+    path: '/403',
+    name: '403',
+    component: () => import(/* webpackChunkName: "Multiplexing" */ '@/components/common-page/403.vue'),
   },
   {
-    path: "/500",
-    name: "500",
-    component: () =>
-      import(/* webpackChunkName: "Multiplexing" */ "@/components/common-page/500.vue")
-  }
+    path: '/500',
+    name: '500',
+    component: () => import(/* webpackChunkName: "Multiplexing" */ '@/components/common-page/500.vue'),
+  },
 ];

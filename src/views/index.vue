@@ -13,13 +13,14 @@
   </div>
 </template>
 <script>
-import myHeader from "./header/header.vue";
-import ToolBar from "./tool-bar/index.vue";
+import myHeader from './header/header.vue';
+import ToolBar from './tool-bar/index.vue';
+
 export default {
-  name: "home",
+  name: 'home',
   components: {
     myHeader,
-    ToolBar
-  }
+    ToolBar,
+  },
 };
 </script>

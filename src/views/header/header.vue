@@ -3,7 +3,7 @@
  * @LastEditors: wangzhongjie
  * @Description: 头部
  * @Date: 2019-04-15 14:46:15
- * @LastEditTime: 2019-04-15 17:29:57
+ * @LastEditTime: 2019-05-08 15:07:19
  -->
 <template>
   <div class="header">
@@ -12,15 +12,16 @@
   </div>
 </template>
 <script>
-import HeaderTime from "./time.vue";
+import HeaderTime from './time.vue';
+
 export default {
-  name: "my-header",
+  name: 'my-header',
   components: {
-    HeaderTime
-  }
+    HeaderTime,
+  },
 };
 </script>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .header {
   display: flex;
   width: 100%;

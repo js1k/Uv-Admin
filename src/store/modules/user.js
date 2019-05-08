@@ -1,8 +1,8 @@
 const user = {
   state: {
-    uaserName: ""
+    uaserName: '',
   },
   actions: {},
-  mutations: {}
+  mutations: {},
 };
 export default user;
