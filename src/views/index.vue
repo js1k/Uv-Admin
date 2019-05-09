@@ -3,23 +3,20 @@
  * @LastEditors: wangzhongjie
  * @Description: 路由入口
  * @Date: 2019-04-15 14:52:14
- * @LastEditTime: 2019-04-15 17:29:53
+ * @LastEditTime: 2019-05-09 15:57:41
  -->
 <template>
-  <div>
-    <my-header></my-header>
+  <div class="view">
     <router-view />
-    <tool-bar></tool-bar>
   </div>
 </template>
 <script>
-import myHeader from "./header/header.vue";
-import ToolBar from "./tool-bar/index.vue";
 export default {
-  name: "home",
-  components: {
-    myHeader,
-    ToolBar
-  }
+  name: "home"
 };
 </script>
+<style lang="scss" scoped>
+.view {
+  height: 100%;
+}
+</style>

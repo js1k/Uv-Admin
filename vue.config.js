@@ -5,6 +5,15 @@ module.exports = {
   //   devServer: {
   //     publicPath: baseUrl // 和 baseUrl 保持一致
   //   }
+  css: {
+    loaderOptions: {
+      sass: {
+        data: `
+          @import "@/styles/var.scss";
+        `
+      }
+    }
+  },
   devServer: {
     proxy: {
       "/api": {

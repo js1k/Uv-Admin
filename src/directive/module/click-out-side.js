@@ -3,7 +3,7 @@
  * @LastEditors: wangzhongjie
  * @Description: 点击自身以外指令
  * @Date: 2019-04-25 09:43:15
- * @LastEditTime: 2019-04-25 10:04:50
+ * @LastEditTime: 2019-05-09 15:11:37
  */
 export default {
   bind(el, binding) {
