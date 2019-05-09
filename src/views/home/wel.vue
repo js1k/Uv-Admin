@@ -8,7 +8,10 @@
 <template>
   <div class="main">
     <div class="main-top">
-      <theme-picker style="float: right;height: 26px;margin: -3px 8px 0 0;" @change="themeChange"/>
+      <theme-picker
+        style="float: right;height: 26px;margin: -3px 8px 0 0;"
+        @change="themeChange"
+      />
     </div>
     <div class="main-body">
       <section class="main-body-left">菜单</section>
