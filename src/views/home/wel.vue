@@ -3,11 +3,13 @@
  * @LastEditors: wangzhongjie
  * @Description: 首页
  * @Date: 2019-04-15 16:39:09
- * @LastEditTime: 2019-05-09 17:08:27
+ * @LastEditTime: 2019-05-09 17:23:20
  -->
 <template>
   <div class="main">
     <div class="main-top">
+      头部
+      <!-- 主题选择 -->
       <theme-picker
         style="float: right;height: 26px;margin: -3px 8px 0 0;"
         @change="themeChange"
@@ -44,7 +46,6 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "@/styles/var.scss";
 .main {
   display: flex;
   flex-direction: column;
