@@ -2,7 +2,7 @@
  * @Author: wangzhongjie
  * @Date: 2019-05-13 09:47:17
  * @LastEditors: wangzhongjie
- * @LastEditTime: 2019-05-13 11:23:05
+ * @LastEditTime: 2019-05-13 14:05:39
  * @Description: 菜单
  -->
 <template>
@@ -56,7 +56,7 @@ import { mapGetters } from "vuex";
 export default {
   data() {
     return {
-      isCollapse: true,
+      isCollapse: false,
       router: ""
     };
   },

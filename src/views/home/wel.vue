@@ -3,7 +3,7 @@
  * @LastEditors: wangzhongjie
  * @Description: 首页
  * @Date: 2019-04-15 16:39:09
- * @LastEditTime: 2019-05-13 14:04:08
+ * @LastEditTime: 2019-05-13 14:05:27
  -->
 <template>
   <div class="main">
@@ -26,7 +26,6 @@
 <script>
 import ThemePicker from "@/components/ThemePicker";
 import LeftMenus from "./components/menus.vue";
-import {setToken} from "@/util/cookie.js";
 export default {
   name: "WelPage",
   components: {
