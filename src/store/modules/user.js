@@ -1,6 +1,7 @@
 const user = {
   state: {
-    uaserName: ""
+    uaserName: "",
+    roles: false
   },
   actions: {
     // 获取用户权限

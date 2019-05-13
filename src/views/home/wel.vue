@@ -3,7 +3,7 @@
  * @LastEditors: wangzhongjie
  * @Description: 首页
  * @Date: 2019-04-15 16:39:09
- * @LastEditTime: 2019-05-13 14:05:27
+ * @LastEditTime: 2019-05-13 15:49:54
  -->
 <template>
   <div class="main">
@@ -19,13 +19,19 @@
       <section class="main-body-left">
         <left-menus></left-menus>
       </section>
-      <section class="main-body-right">主体</section>
+      <section class="main-body-right">
+        <div>
+          案件
+        </div>
+      </section>
     </div>
   </div>
 </template>
 <script>
 import ThemePicker from "@/components/ThemePicker";
 import LeftMenus from "./components/menus.vue";
+// import { getToken, setToken } from "@/util/cookie.js";
+
 export default {
   name: "WelPage",
   components: {
@@ -37,8 +43,6 @@ export default {
       date: Date.parse(new Date()) / 1000,
       time: new Date().valueOf()
     };
-  },
-  mounted(){
   },
   methods: {
     btnClick() {},
