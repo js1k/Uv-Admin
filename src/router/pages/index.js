@@ -3,7 +3,7 @@
  * @LastEditors: wangzhongjie
  * @Description: 业务路由
  * @Date: 2019-04-11 11:42:56
- * @LastEditTime: 2019-04-15 16:43:51
+ * @LastEditTime: 2019-05-13 13:48:25
  */
 import Home from "@/views/index.vue";
 export default [
