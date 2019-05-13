@@ -3,7 +3,7 @@
  * @LastEditors: wangzhongjie
  * @Description: 路由分组
  * @Date: 2019-04-10 11:26:51
- * @LastEditTime: 2019-05-13 16:00:26
+ * @LastEditTime: 2019-05-13 16:03:25
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -18,8 +18,6 @@ Vue.use(VueRouter);
 let router = new VueRouter({
   mode: "history"
 });
-let arr = [];
-arr.push(otherRoutes);
 router.addRoutes([...otherRoutes]);
 // router.addRoutes([...pageRouter]);
 router.beforeEach(async (to, from, next) => {
